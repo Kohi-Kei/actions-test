@@ -11,9 +11,14 @@ jobs:
       with: 
         go-version: 1.13
 
-    - name: Check out code into the Go module
+    - name: git clone this repository
       uses: actions/checkout@v1
-    
-    -name: Test Execute
+
+    - name: Print where you are
+      run: ls
+
+    - name: Print where you are
       run: pwd
-      run: go test -v .
+
+    - name: Run Test Case
+      run: go test -v ./src/github.com/Kohi-Kei/actions
