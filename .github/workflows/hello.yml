@@ -14,6 +14,8 @@ jobs:
     - name: Check out code into the Go module
       uses: actions/checkout@v1
     
-    - name: Test Execute
+    - name: Print where you are
       run: pwd
+
+    - name: Run Test Case
       run: go test -v .
