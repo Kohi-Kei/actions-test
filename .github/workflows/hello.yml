@@ -14,12 +14,6 @@ jobs:
     - name: git clone this repository
       uses: actions/checkout@v1
 
-    - name: Print where you are
-      run: ls
-
-    - name: Print where you are
-      run: pwd
-
     - name: Run Test Case
       run: go test -v ./src/github.com/Kohi-Kei/actions
       
