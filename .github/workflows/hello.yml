@@ -21,4 +21,4 @@ jobs:
       run: pwd
 
     - name: Run Test Case
-      run: go test -v .
+      run: go test -v ./src/github.com/Kohi-Kei/actions
