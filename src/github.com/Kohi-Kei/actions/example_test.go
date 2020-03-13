@@ -8,10 +8,3 @@ func TestExample(t *testing.T) {
 		t.Fatal("failed test")
 	}
 }
-
-func TestExampleFailed(t *testing.T) {
-	result := returnFalse()
-	if !result {
-		t.Fatal("failed test")
-	}
-}
